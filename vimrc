@@ -3,6 +3,19 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 let mapleader="\\"
+"map ctrl-s to save and normal mode
+nnoremap <C-s> :w<cr>
+inoremap <C-s> <esc>:w<cr>
+set tabstop=4       " The width of a TAB is set to 4.
+                    " Still it is a \t. It is just that
+                    " Vim will interpret it to be having
+                    " a width of 4.
+
+set shiftwidth=4    " Indents will have a width of 4
+
+set softtabstop=4   " Sets the number of columns for a TAB
+
+set expandtab       " Expand TABs to spaces
 
 "plugin related settings
 "taglist:
@@ -15,6 +28,11 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "airline
 let g:airline#extensions#tabline#enabled = 1
+
+" Set ultisnips triggers
+let g:UltiSnipsExpandTrigger="<tab>"                                            
+let g:UltiSnipsJumpForwardTrigger="<tab>"                                       
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 "split window navigation
 nnoremap <A-left> :vertical resize +10<cr>
