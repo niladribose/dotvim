@@ -22,3 +22,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
+[submodule "bundle/colorbox"]
+	path = bundle/colorbox
+	url = https://github.com/mkarmona/colorsbox.git

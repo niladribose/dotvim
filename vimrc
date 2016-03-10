@@ -44,8 +44,7 @@ map <C-down> <C-w><Down>
 map <C-right> <C-w><Right>
 map <C-left> <C-w><Left>
 "colorscheme
-colorscheme hemisu
-set background=dark
+colorscheme colorsbox-stblue
 "auto start commands
 autocmd VimEnter * NERDTree
 autocmd BufEnter * NERDTreeMirror
