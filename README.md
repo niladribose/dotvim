@@ -12,4 +12,4 @@ sh ./getExternalDependencies.sh
 
 To add new submodule - 
 
-git submodule add <git remository path> bundle/<name of folde, ideally name of plugin>
+git submodule add (git remository path) bundle/(name of folder, ideally name of plugin)
