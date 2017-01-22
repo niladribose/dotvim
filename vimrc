@@ -28,6 +28,8 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "airline
 let g:airline#extensions#tabline#enabled = 1
+"ctrp
+let g:ctrlp_extensions = ['buffertag', 'tag', 'line', 'dir']
 
 " Set ultisnips triggers
 let g:UltiSnipsExpandTrigger="<tab>"                                            
@@ -44,7 +46,8 @@ map <C-down> <C-w><Down>
 map <C-right> <C-w><Right>
 map <C-left> <C-w><Left>
 "colorscheme
-colorscheme colorsbox-stblue
+colorscheme solarized
+set background=dark
 "auto start commands
 autocmd VimEnter * NERDTree
 autocmd BufEnter * NERDTreeMirror

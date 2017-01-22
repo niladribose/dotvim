@@ -25,3 +25,9 @@
 [submodule "bundle/colorbox"]
 	path = bundle/colorbox
 	url = https://github.com/mkarmona/colorsbox.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/cscope_maps"]
+	path = bundle/cscope_maps
+	url = https://github.com/chazy/cscope_maps.git
