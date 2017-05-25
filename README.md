@@ -2,15 +2,8 @@ Sync to a clean system linux :
 
 git clone https://github.com/niladribose/dotvim.git ~/.vim  
 
-ln -s ~/.vim/vimrc ~/.vimrc
-
 cd ~/.vim
-
-git submodule init
-
-git submodule update
-
-sh ./getExternalDependencies.sh
+sh ./linuxSetup.sh
 
 To add new submodule - 
 
